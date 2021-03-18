@@ -2,7 +2,7 @@
 /recovery	emmc	/dev/block/platform/13500000.dwmmc0/by-name/RECOVERY	flags=backup=1
 /system_root	ext4	/dev/block/platform/13500000.dwmmc0/by-name/SYSTEM
 /system_image	emmc	/dev/block/platform/13500000.dwmmc0/by-name/SYSTEM
-/vendor		ext4	/dev/block/platform/13500000.dwmmc0/by-name/VENDOR
+/vendor		ext4	/dev/block/platform/13500000.dwmmc0/by-name/VENDOR 		flags=wipeingui
 /vendor_image	emmc	/dev/block/platform/13500000.dwmmc0/by-name/VENDOR
 /data		f2fs	/dev/block/platform/13500000.dwmmc0/by-name/USERDATA
 /cache		ext4	/dev/block/platform/13500000.dwmmc0/by-name/CACHE
